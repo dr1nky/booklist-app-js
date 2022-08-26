@@ -25,7 +25,7 @@ class UI {
       <td>${book.title}</td>
       <td>${book.author}</td>
       <td>${book.isbn}</td>
-      <td><a href="#" class="btn btn-primary btn-sm delete">Edit</a></td>
+      <td><a href="#" class="btn btn-primary btn-sm edit">Edit</a></td>
       <td><a href="#" class="btn btn-danger btn-sm delete">Delete</a></td>
     `;
     list.appendChild(row);
